@@ -4,3 +4,12 @@
     flex-wrap: wrap;
     align-content: center;
 }
+
+.initialButton{
+    display: flex;
+    margin: 0 auto;
+}
+
+.bottom {
+    position: fixed;
+}
