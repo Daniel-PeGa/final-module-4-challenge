@@ -5,6 +5,13 @@
     align-content: center;
 }
 
+.introP {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .initialButton{
     display: flex;
     margin: 0 auto;

@@ -4,31 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="icon" type="image/ico" href="Quiz-pic.png"/>
-    <script src="/Users/danielperezgarnica/Desktop/final-module-4-challenge/script.js"></script>
     <title>Daniel's cool coding quizz</title>
 </head>
 <body>
     <nav class="navbar navbar-light bg-light">
-     <a class="navbar-brand" href="#">
+     <a class="navbar-brand">
         <img src="Quiz-pic.png" width="30" height="30" class="d-inline-block align-top" alt="Quiz hub">
         Daniel's cool and super awesome coding quizz
      </a>
     </nav>
 
-    <p>Welcome to my super incredibly awesome coding quiz! I'm now giving you the chance to practice your coding abilities at  fast pace. Can u do it? Remember youre being penalized for messing up w 11 seconds!!</p>
+    <nav>
+      <p class="introP">Welcome to my super incredibly awesome coding quiz! I'm now giving you the chance to practice your coding abilities at  fast pace. Can u do it? Remember youre being penalized for messing up w 11 seconds!!</p>
+       <button class="initialButton" id="startButton">Start!</button>
+    </nav>
 
-  <button class="initialButton" id="startButton">Start!</button>
+    <main class="main" id="main">
+      <nav id="mainGame" class="w3-container hide">
+        <h5 class="timeLeft">Time Left:</h5>
+        <header class="w3-container">
+          <h3 id="question">placeholder</h3>
+        </header>
 
-  <nav>
-      
-  </nav>
+        <hr>
+
+        <nav id="questionHeader" class="w3-container">
+
+          <nav class="question">
+            <label id="choiceA"></label>
+          </nav>
+          <hr>
+
+          <nav class="question">
+            <label id="choiceB"></label>
+          </nav>
+          <hr>
+
+          <nav class="question">
+            <label id="choiceC"></label>
+          </nav>
+          <hr>
+
+          <nav class="question">
+            <label id="choiceD"></label>
+          </nav>
+          <hr>
+
+
+        </nav>
+      </nav>
+    </main>
 
   <footer class="bottom navbar navbar-fixed-bottom" >
     <button id="highscores">HIGH SCORES</button>
-</footer>
+  </footer>
 
 <script src="scripts/script.js"></script>
 <script src="scripts/questions.js"></script>
