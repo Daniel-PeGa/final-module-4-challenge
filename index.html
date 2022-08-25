@@ -25,6 +25,7 @@
     <main class="main" id="main">
       <nav id="mainGame" class="w3-container hide">
         <h5 class="timeLeft">Time Left:</h5>
+        <nav id="cardOG" class="w3-container">
         <header class="w3-container">
           <h3 id="question">placeholder</h3>
         </header>
@@ -52,15 +53,31 @@
             <label id="choiceD"></label>
           </nav>
           <hr>
-
-
         </nav>
-      </nav>
-    </main>
 
-  <footer class="bottom navbar navbar-fixed-bottom" >
-    <button id="highscores">HIGH SCORES</button>
-  </footer>
+        <hr>
+
+        <footer id="responseRe">Right or Wrong?</footer>
+      </nav>
+      </nav>
+
+    <footer class="bottom navbar navbar-fixed-bottom" >
+      <button id="highscores">HIGH SCORES</button>
+    </footer>
+
+    <nav id="inputForm" class="hide">
+
+    <h1>!!!!! GAME OVER !!!!!</h1>
+
+    <h2>Score: <span id="scoreBtn"></span></h2>
+      <form>
+        <label for="namePlay"></label><br>
+        <input id="namePlay" type="text"><br>
+        <input id="submitBtn" type="submit" class="btn">
+      </form>
+    </nav>
+
+  </main>
 
 <script src="scripts/script.js"></script>
 <script src="scripts/questions.js"></script>
