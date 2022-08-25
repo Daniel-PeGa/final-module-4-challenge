@@ -7,3 +7,6 @@ var choiceA = document.querySelector("#choiceA");
 var choiceB = document.querySelector("#choiceB");
 var choiceC = document.querySelector("#choiceC");
 var choiceD = document.querySelector("#choiceD");
+var answer = document.querySelector('#answer');
+var feedback = document.querySelector('#responseRe');
+var card = document.querySelector('#questionHeader');
