@@ -1,3 +1,18 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+
+  body {
+    background-color: #ecf5ff;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+  }
+
 .titleName {
     display: flex;
     flex-direction: column;
@@ -5,6 +20,22 @@
     align-content: center;
 }
 
+.container {
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+
+  .btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+  
 .introP {
     display: flex;
     flex-direction: column;

@@ -129,7 +129,7 @@ card.addEventListener("click", function(event) {
 
 submitBtn.addEventListener("click", function(event) {
     event.preventDefault();
-    var playerName = initials.ariaValueMax.trim();
+    var playerName = initials.value.trim();
     var newRecord = {
         player: playerName,
         score: score,
