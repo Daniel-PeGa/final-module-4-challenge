@@ -28,8 +28,14 @@ THEN I can save my initials and score
 
 ## Experience
 
+### Initial Page
+
 <img width="1440" alt="Screen Shot 2022-08-29 at 23 52 22" src="https://user-images.githubusercontent.com/106125888/187353004-fc8b9485-949d-4661-8302-d7c6250dbc17.png">
 
+### Obvious Questions for a coding quiz
+
 <img width="1440" alt="Screen Shot 2022-08-29 at 23 52 45" src="https://user-images.githubusercontent.com/106125888/187353042-cb719e0e-1da9-4f6b-a463-9cc71211f18e.png">
+
+### Scorecard
 
 <img width="1440" alt="Screen Shot 2022-08-29 at 23 53 05" src="https://user-images.githubusercontent.com/106125888/187353082-e07d1e77-4f50-46fe-b194-6ea8ba28de48.png">
