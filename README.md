@@ -8,7 +8,7 @@ This application reacts to the user's clicking abilities by initially initiate t
 
 ## Deployed page:
 
-https://daniel-pega.github.io/final-module-4-challenge/
+https://daniel-pega.github.io/webAPIs_CodeQuiz/
 
 ## User Story
 
